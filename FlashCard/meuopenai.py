@@ -1,7 +1,7 @@
 import openai
 
 
-openai.api_key = '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'
+openai.api_key = '...'
 
 def criar_flashcards(materia, conteudo):
     prompt = f"Matéria: {materia}\nConteúdo: {conteudo}\nFlashcard:"
