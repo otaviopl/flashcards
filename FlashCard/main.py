@@ -2,7 +2,7 @@ import openai
 import GETconteudo
 import GETmateria
 
-openai.api_key = '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'
+openai.api_key = '...'
 
 def criar_flashcard(materia, conteudo):
     prompt = f"Matéria: {materia}\nConteúdo: {conteudo}\nFlashcard:"
